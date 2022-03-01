@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AppxShowAllApps>True</AppxShowAllApps>
+    <UapAppxPackageBuildMode>StoreAndSideload</UapAppxPackageBuildMode>
+    <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <Source>F:\Store\AutoTurnOff\Assets\PMATO3.png</Source>
+    <SmallTileSource>F:\Store\AutoTurnOff\Assets\PMATO3.png</SmallTileSource>
+    <MediumTileSource>F:\Store\AutoTurnOff\Assets\PMATO3.png</MediumTileSource>
+    <WideTileSource>F:\Store\AutoTurnOff\Assets\PMATO3.png</WideTileSource>
+    <LargeTileSource>F:\Store\AutoTurnOff\Assets\PMATO3.png</LargeTileSource>
+    <AppIconSource>F:\Store\AutoTurnOff\Assets\PMATO3.png</AppIconSource>
+    <SplashScreenSource>F:\Store\AutoTurnOff\Assets\PMATO3.png</SplashScreenSource>
+    <PackageLogoSource>F:\Store\AutoTurnOff\Assets\PMATO3.png</PackageLogoSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>False</RemoteDebugEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

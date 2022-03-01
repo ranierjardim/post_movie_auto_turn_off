@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AutoTurnOff
+</name>
+</assembly>
+<members>
+<member name="T:AutoTurnOff.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AutoTurnOff.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:AutoTurnOff.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:AutoTurnOff.My.Resources.Resources.NtfMainClose">
+<summary>
+  Looks up a localized string similar to Close application.
+</summary>
+</member>
+<member name="P:AutoTurnOff.My.Resources.Resources.NtfMainConfig">
+<summary>
+  Looks up a localized string similar to Configuration.
+</summary>
+</member>
+<member name="P:AutoTurnOff.My.Resources.Resources.NtfMainOpen">
+<summary>
+  Looks up a localized string similar to Open.
+</summary>
+</member>
+<member name="P:AutoTurnOff.My.Resources.Resources.StringTest">
+<summary>
+  Looks up a localized string similar to fuck u.
+</summary>
+</member>
+<member name="P:AutoTurnOff.My.Resources.Resources.WndSplashscreenLoadingMessage">
+<summary>
+  Looks up a localized string similar to Loading Post Movie Auto Turn Off....
+</summary>
+</member>
+</members>
+</doc>

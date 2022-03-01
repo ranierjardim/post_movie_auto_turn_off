@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a984ec70-79fb-4dfe-9ab8-2b8e394765ae": {
+      "ProjectGuid": "a984ec70-79fb-4dfe-9ab8-2b8e394765ae",
+      "DisplayName": "AutoTurnOff",
+      "ColorIndex": 0
+    },
+    "a878484e-57c7-41a9-886e-07fc26d905a9": {
+      "ProjectGuid": "a878484e-57c7-41a9-886e-07fc26d905a9",
+      "DisplayName": "WindowsStoreApplicationProject",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

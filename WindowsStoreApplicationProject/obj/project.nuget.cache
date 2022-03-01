@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4mipCnRLBmodly9lDB14BYK9nVEwq68CQB55vhSJ1Mf+F1sLQlNtxs2jaDooHci0bpIaWHM60DrDHXiPrh2vxQ==",
+  "success": true,
+  "projectFilePath": "F:\\Store\\AutoTurnOff\\WindowsStoreApplicationProject\\WindowsStoreApplicationProject.wapproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512"
+  ],
+  "logs": []
+}
