@@ -20,8 +20,9 @@ Public Class WndAutoShutdown
 
     Private Sub BtnSetShutdownTimeout_Click(sender As Object, e As EventArgs) Handles BtnSetShutdownTimeout.Click
         Dim time As Integer = (NbbHours.CurrencyAsInt * 60 * 60) + (NbbMinutes.CurrencyAsInt * 60)
-        If time <= 10 Then
-            'My.Resources.Resources.NtfMainOpen
+        If time < 60 Then
+            MessageBox.Show("É necessário definir um tempo maior que um minuto para agendar o desligamento.", "Tempo inválido", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1)
+            Exit Sub
         End If
         Dim info As New ProcessStartInfo("cmd.exe")
         info.Arguments = "/C shutdown /s /t " & time.ToString
