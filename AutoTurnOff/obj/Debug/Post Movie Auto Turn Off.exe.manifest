@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="AutoTurnOff.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Post Movie Auto Turn Off.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="PMATO3.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="AutoTurnOff" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-    <commandLine file="AutoTurnOff.exe" parameters="" />
+    <assemblyIdentity name="Post Movie Auto Turn Off" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Post Movie Auto Turn Off.exe" parameters="" />
   </entryPoint>
   <trustInfo>
     <security>
@@ -42,30 +43,39 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoTurnOff.exe" size="700416">
-      <assemblyIdentity name="AutoTurnOff" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Post Movie Auto Turn Off.exe" size="870912">
+      <assemblyIdentity name="Post Movie Auto Turn Off" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6RC6bLtjUJSwxR5kv5Lk9O8eHsF4zOGjlVaREgJEE2M=</dsig:DigestValue>
+        <dsig:DigestValue>gjOchb2j1vX5HpXoyBC9Ef5dYMk8/M9tfzoDIAPRoyw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pt-BR\AutoTurnOff.resources.dll" size="3584">
-      <assemblyIdentity name="AutoTurnOff.resources" version="1.0.0.0" language="pt-BR" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pt-BR\Post Movie Auto Turn Off.resources.dll" size="5120">
+      <assemblyIdentity name="Post Movie Auto Turn Off.resources" version="1.0.0.0" language="pt-BR" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+cL56qN4kRH7KJH3L9Xn+NJDSVHGo8pSr84fBDnFjoU=</dsig:DigestValue>
+        <dsig:DigestValue>EHg9Rha6tWzlV/VI0xQQZ3zXtWHwGCzO4xTlc28dQBk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="AutoTurnOff.exe.config" size="186">
+  <file name="PMATO3.ico" size="166898">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Fo+Y32opHLmDqjUjFWeqJEkw+CcjdjP2P4iee2wb0XU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Post Movie Auto Turn Off.exe.config" size="186">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />

@@ -85,7 +85,7 @@ Partial Class WndAutoShutdown
         Me.BtnSetShutdownTimeout.Name = "BtnSetShutdownTimeout"
         Me.BtnSetShutdownTimeout.Size = New System.Drawing.Size(243, 36)
         Me.BtnSetShutdownTimeout.TabIndex = 0
-        Me.BtnSetShutdownTimeout.Text = "Agendar desligamento"
+        Me.BtnSetShutdownTimeout.Text = Global.AutoTurnOff.My.Resources.Resources.WndAutoShutdown_BtnSetShutdownTimeout_Text
         Me.BtnSetShutdownTimeout.UseVisualStyleBackColor = True
         '
         'BtnCancelar
@@ -97,7 +97,7 @@ Partial Class WndAutoShutdown
         Me.BtnCancelar.Name = "BtnCancelar"
         Me.BtnCancelar.Size = New System.Drawing.Size(244, 36)
         Me.BtnCancelar.TabIndex = 1
-        Me.BtnCancelar.Text = "Cancelar todos desligamentos"
+        Me.BtnCancelar.Text = Global.AutoTurnOff.My.Resources.Resources.WndAutoShutdown_BtnCancelar_Text
         Me.BtnCancelar.UseVisualStyleBackColor = True
         '
         'TableLayoutPanel2
@@ -106,8 +106,8 @@ Partial Class WndAutoShutdown
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TableLayoutPanel2.ColumnCount = 2
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.04609!))
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.95391!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.27054!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64.72946!))
         Me.TableLayoutPanel2.Controls.Add(Me.Label1, 0, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.TableLayoutPanel3, 1, 0)
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(3, 23)
@@ -126,9 +126,9 @@ Partial Class WndAutoShutdown
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(3, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(108, 31)
+        Me.Label1.Size = New System.Drawing.Size(169, 31)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Duração do filme:"
+        Me.Label1.Text = "Movie time:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TableLayoutPanel3
@@ -138,18 +138,18 @@ Partial Class WndAutoShutdown
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TableLayoutPanel3.ColumnCount = 4
         Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 54.0!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80.0!))
         Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 59.0!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 180.0!))
         Me.TableLayoutPanel3.Controls.Add(Me.Label2, 1, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.Label3, 3, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.NbbHours, 0, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.NbbMinutes, 2, 0)
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(117, 3)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(178, 3)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 1
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(379, 25)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(318, 25)
         Me.TableLayoutPanel3.TabIndex = 2
         '
         'Label2
@@ -158,11 +158,11 @@ Partial Class WndAutoShutdown
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(136, 0)
+        Me.Label2.Location = New System.Drawing.Point(32, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(48, 25)
+        Me.Label2.Size = New System.Drawing.Size(74, 25)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "horas e"
+        Me.Label2.Text = "hours and"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label3
@@ -171,11 +171,11 @@ Partial Class WndAutoShutdown
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(323, 0)
+        Me.Label3.Location = New System.Drawing.Point(141, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(53, 25)
+        Me.Label3.Size = New System.Drawing.Size(174, 25)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "minutos"
+        Me.Label3.Text = "minutes"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'NbbHours
@@ -186,7 +186,7 @@ Partial Class WndAutoShutdown
         Me.NbbHours.CurrencyAsInt = 0
         Me.NbbHours.Location = New System.Drawing.Point(3, 3)
         Me.NbbHours.Name = "NbbHours"
-        Me.NbbHours.Size = New System.Drawing.Size(127, 20)
+        Me.NbbHours.Size = New System.Drawing.Size(23, 20)
         Me.NbbHours.TabIndex = 4
         Me.NbbHours.Text = "0"
         '
@@ -196,9 +196,9 @@ Partial Class WndAutoShutdown
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.NbbMinutes.CurrencyAsInt = 0
-        Me.NbbMinutes.Location = New System.Drawing.Point(190, 3)
+        Me.NbbMinutes.Location = New System.Drawing.Point(112, 3)
         Me.NbbMinutes.Name = "NbbMinutes"
-        Me.NbbMinutes.Size = New System.Drawing.Size(127, 20)
+        Me.NbbMinutes.Size = New System.Drawing.Size(23, 20)
         Me.NbbMinutes.TabIndex = 5
         Me.NbbMinutes.Text = "0"
         '

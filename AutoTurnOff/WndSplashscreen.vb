@@ -9,7 +9,7 @@
     End Sub
 
     Private Sub TsmClose_Click(sender As Object, e As EventArgs) Handles TsmClose.Click
-        If MessageBox.Show("Tem certeza que deseja sair?", "Fechar", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) = MsgBoxResult.Yes Then
+        If MessageBox.Show(My.Resources.WndSplashscreen_TsmClose_Click_Text, My.Resources.WndSplashscreen_TsmClose_Click_Title, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) = MsgBoxResult.Yes Then
             Application.Exit()
         End If
     End Sub
@@ -29,5 +29,9 @@
     Private Sub WndSplashscreen_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         Me.Hide()
         WndAutoShutdown.Show()
+    End Sub
+
+    Private Sub WndSplashscreen_Load(sender As Object, e As EventArgs) Handles Me.Load
+        NtfMain.Text = My.Resources.WndSplashscreen_NtfMain_Text
     End Sub
 End Class

@@ -129,8 +129,41 @@
   <data name="StringTest" xml:space="preserve">
     <value>kkkkkk</value>
   </data>
+  <data name="WndAutoShutdownMinimunTimeNotExpected" xml:space="preserve">
+    <value>É necessário definir um tempo maior que um minuto para agendar o desligamento.</value>
+  </data>
+  <data name="WndAutoShutdownMinimunTimeNotExpectedTitle" xml:space="preserve">
+    <value>Tempo inválido</value>
+  </data>
+  <data name="WndAutoShutdown_BtnCancelar_Text" xml:space="preserve">
+    <value>Cancelar todos desligamentos agendados</value>
+  </data>
+  <data name="WndAutoShutdown_BtnSetShutdownTimeout_Text" xml:space="preserve">
+    <value>Agendar desligamento</value>
+  </data>
+  <data name="WndAutoShutdown_Label1_Text" xml:space="preserve">
+    <value>Duração do filme:</value>
+  </data>
+  <data name="WndAutoShutdown_Label2_Text" xml:space="preserve">
+    <value>horas e</value>
+  </data>
+  <data name="WndAutoShutdown_Label3_Text" xml:space="preserve">
+    <value>minutos</value>
+  </data>
+  <data name="WndAutoShutdown_Title" xml:space="preserve">
+    <value>Post Movie Auto Shutdown</value>
+  </data>
   <data name="WndSplashscreenLoadingMessage" xml:space="preserve">
     <value>Carregando Auto Turn Off...</value>
     <comment>Mensagem que aparece no splashscreen</comment>
+  </data>
+  <data name="WndSplashscreen_NtfMain_Text" xml:space="preserve">
+    <value>Notificação Post Movie Auto Turn Off</value>
+  </data>
+  <data name="WndSplashscreen_TsmClose_Click_Text" xml:space="preserve">
+    <value>Tem certeza que deseja fechar a aplicação?</value>
+  </data>
+  <data name="WndSplashscreen_TsmClose_Click_Title" xml:space="preserve">
+    <value>Fechar</value>
   </data>
 </root>
