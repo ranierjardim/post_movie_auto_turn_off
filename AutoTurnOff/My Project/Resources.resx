@@ -129,10 +129,40 @@
   <data name="StringTest" xml:space="preserve">
     <value>fuck u</value>
   </data>
-  <data name="WndAutoShutdownMinimunTimeNot" xml:space="preserve">
-    <value />
+  <data name="WndAutoShutdownMinimunTimeNotExpected" xml:space="preserve">
+    <value>The minimun time to schedule is 1 minute</value>
+  </data>
+  <data name="WndAutoShutdownMinimunTimeNotExpectedTitle" xml:space="preserve">
+    <value>Invalid time</value>
+  </data>
+  <data name="WndAutoShutdown_BtnCancelar_Text" xml:space="preserve">
+    <value>Cancel all scheduled shutdowns</value>
+  </data>
+  <data name="WndAutoShutdown_BtnSetShutdownTimeout_Text" xml:space="preserve">
+    <value>Schedule shutdown</value>
+  </data>
+  <data name="WndAutoShutdown_Label1_Text" xml:space="preserve">
+    <value>Movie time:</value>
+  </data>
+  <data name="WndAutoShutdown_Label2_Text" xml:space="preserve">
+    <value>hours and</value>
+  </data>
+  <data name="WndAutoShutdown_Label3_Text" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="WndAutoShutdown_Title" xml:space="preserve">
+    <value>Post Movie Auto Shutdown</value>
   </data>
   <data name="WndSplashscreenLoadingMessage" xml:space="preserve">
     <value>Loading Post Movie Auto Turn Off...</value>
+  </data>
+  <data name="WndSplashscreen_NtfMain_Text" xml:space="preserve">
+    <value>Post Movie Auto Turn Off Notification</value>
+  </data>
+  <data name="WndSplashscreen_TsmClose_Click_Text" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="WndSplashscreen_TsmClose_Click_Title" xml:space="preserve">
+    <value>Close</value>
   </data>
 </root>

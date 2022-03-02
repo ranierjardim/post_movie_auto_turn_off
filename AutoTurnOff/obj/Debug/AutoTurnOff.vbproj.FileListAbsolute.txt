@@ -1,10 +1,3 @@
-F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\AutoTurnOff.exe.config
-F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\AutoTurnOff.exe.manifest
-F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\AutoTurnOff.application
-F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\AutoTurnOff.exe
-F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\AutoTurnOff.pdb
-F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\AutoTurnOff.xml
-F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\pt-BR\AutoTurnOff.resources.dll
 F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.vbproj.AssemblyReference.cache
 F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.vbproj.SuggestedBindingRedirects.cache
 F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.WndAutoShutdown.resources
@@ -15,10 +8,17 @@ F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.WndTests.resources
 F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.Resources.pt-BR.resources
 F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.vbproj.GenerateResource.cache
 F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.vbproj.CoreCompileInputs.cache
-F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\pt-BR\AutoTurnOff.resources.dll
-F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.TrustInfo.xml
-F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.exe.manifest
-F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.application
-F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.exe
-F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.xml
-F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\AutoTurnOff.pdb
+F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\Post Movie Auto Turn Off.exe.config
+F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\Post Movie Auto Turn Off.exe.manifest
+F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\Post Movie Auto Turn Off.application
+F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\Post Movie Auto Turn Off.exe
+F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\Post Movie Auto Turn Off.pdb
+F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\Post Movie Auto Turn Off.xml
+F:\Store\AutoTurnOff\AutoTurnOff\bin\Debug\pt-BR\Post Movie Auto Turn Off.resources.dll
+F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\pt-BR\Post Movie Auto Turn Off.resources.dll
+F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\Post Movie Auto Turn Off.TrustInfo.xml
+F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\Post Movie Auto Turn Off.exe.manifest
+F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\Post Movie Auto Turn Off.application
+F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\Post Movie Auto Turn Off.exe
+F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\Post Movie Auto Turn Off.xml
+F:\Store\AutoTurnOff\AutoTurnOff\obj\Debug\Post Movie Auto Turn Off.pdb

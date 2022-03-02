@@ -97,11 +97,101 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Cancel all scheduled shutdowns.
         '''</summary>
-        Friend ReadOnly Property WndAutoShutdownMinimunTimeNot() As String
+        Friend ReadOnly Property WndAutoShutdown_BtnCancelar_Text() As String
             Get
-                Return ResourceManager.GetString("WndAutoShutdownMinimunTimeNot", resourceCulture)
+                Return ResourceManager.GetString("WndAutoShutdown_BtnCancelar_Text", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Schedule shutdown.
+        '''</summary>
+        Friend ReadOnly Property WndAutoShutdown_BtnSetShutdownTimeout_Text() As String
+            Get
+                Return ResourceManager.GetString("WndAutoShutdown_BtnSetShutdownTimeout_Text", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Movie time:.
+        '''</summary>
+        Friend ReadOnly Property WndAutoShutdown_Label1_Text() As String
+            Get
+                Return ResourceManager.GetString("WndAutoShutdown_Label1_Text", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to hours and.
+        '''</summary>
+        Friend ReadOnly Property WndAutoShutdown_Label2_Text() As String
+            Get
+                Return ResourceManager.GetString("WndAutoShutdown_Label2_Text", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to minutes.
+        '''</summary>
+        Friend ReadOnly Property WndAutoShutdown_Label3_Text() As String
+            Get
+                Return ResourceManager.GetString("WndAutoShutdown_Label3_Text", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Post Movie Auto Shutdown.
+        '''</summary>
+        Friend ReadOnly Property WndAutoShutdown_Title() As String
+            Get
+                Return ResourceManager.GetString("WndAutoShutdown_Title", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to The minimun time to schedule is 1 minute.
+        '''</summary>
+        Friend ReadOnly Property WndAutoShutdownMinimunTimeNotExpected() As String
+            Get
+                Return ResourceManager.GetString("WndAutoShutdownMinimunTimeNotExpected", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Invalid time.
+        '''</summary>
+        Friend ReadOnly Property WndAutoShutdownMinimunTimeNotExpectedTitle() As String
+            Get
+                Return ResourceManager.GetString("WndAutoShutdownMinimunTimeNotExpectedTitle", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Post Movie Auto Turn Off Notification.
+        '''</summary>
+        Friend ReadOnly Property WndSplashscreen_NtfMain_Text() As String
+            Get
+                Return ResourceManager.GetString("WndSplashscreen_NtfMain_Text", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Are you sure?.
+        '''</summary>
+        Friend ReadOnly Property WndSplashscreen_TsmClose_Click_Text() As String
+            Get
+                Return ResourceManager.GetString("WndSplashscreen_TsmClose_Click_Text", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Close.
+        '''</summary>
+        Friend ReadOnly Property WndSplashscreen_TsmClose_Click_Title() As String
+            Get
+                Return ResourceManager.GetString("WndSplashscreen_TsmClose_Click_Title", resourceCulture)
             End Get
         End Property
         

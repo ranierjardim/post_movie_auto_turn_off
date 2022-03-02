@@ -44,13 +44,14 @@ Partial Class WndSplashscreen
         '
         Me.CmsNtfMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TsmOpen, Me.TsmConfig, Me.TsmClose})
         Me.CmsNtfMain.Name = "CmsNtfMain"
-        Me.CmsNtfMain.Size = New System.Drawing.Size(166, 70)
+        Me.CmsNtfMain.Size = New System.Drawing.Size(181, 92)
         '
         'TsmOpen
         '
+        Me.TsmOpen.Enabled = False
         Me.TsmOpen.Image = CType(resources.GetObject("TsmOpen.Image"), System.Drawing.Image)
         Me.TsmOpen.Name = "TsmOpen"
-        Me.TsmOpen.Size = New System.Drawing.Size(165, 22)
+        Me.TsmOpen.Size = New System.Drawing.Size(180, 22)
         Me.TsmOpen.Text = Global.AutoTurnOff.My.Resources.Resources.NtfMainOpen
         '
         'TsmConfig
@@ -58,14 +59,14 @@ Partial Class WndSplashscreen
         Me.TsmConfig.Enabled = False
         Me.TsmConfig.Image = CType(resources.GetObject("TsmConfig.Image"), System.Drawing.Image)
         Me.TsmConfig.Name = "TsmConfig"
-        Me.TsmConfig.Size = New System.Drawing.Size(165, 22)
+        Me.TsmConfig.Size = New System.Drawing.Size(180, 22)
         Me.TsmConfig.Text = Global.AutoTurnOff.My.Resources.Resources.NtfMainConfig
         '
         'TsmClose
         '
         Me.TsmClose.Image = CType(resources.GetObject("TsmClose.Image"), System.Drawing.Image)
         Me.TsmClose.Name = "TsmClose"
-        Me.TsmClose.Size = New System.Drawing.Size(165, 22)
+        Me.TsmClose.Size = New System.Drawing.Size(180, 22)
         Me.TsmClose.Text = Global.AutoTurnOff.My.Resources.Resources.NtfMainClose
         '
         'LblMain
@@ -89,6 +90,7 @@ Partial Class WndSplashscreen
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "WndSplashscreen"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Splashscreen"
         Me.CmsNtfMain.ResumeLayout(False)

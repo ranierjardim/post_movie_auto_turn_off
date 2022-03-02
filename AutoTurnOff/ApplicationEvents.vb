@@ -9,8 +9,8 @@ Namespace My
     ' NetworkAvailabilityChanged: Raised when the network connection is connected or disconnected.
     Partial Friend Class MyApplication
         Private Sub MyApplication_Startup(sender As Object, e As StartupEventArgs) Handles Me.Startup
-            Application.ChangeUICulture("pt-BR")
-
+            'Application.ChangeUICulture("pt-BR")
+            'Application.ChangeUICulture("en-US")
         End Sub
     End Class
 End Namespace

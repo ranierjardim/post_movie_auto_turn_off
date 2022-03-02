@@ -2,7 +2,12 @@
 
 Public Class WndAutoShutdown
     Private Sub WndAutoShutdown_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Me.Text = My.Resources.WndAutoShutdown_Title
+        Label1.Text = My.Resources.WndAutoShutdown_Label1_Text
+        Label2.Text = My.Resources.WndAutoShutdown_Label2_Text
+        Label3.Text = My.Resources.WndAutoShutdown_Label3_Text
+        BtnSetShutdownTimeout.Text = My.Resources.WndAutoShutdown_BtnSetShutdownTimeout_Text
+        BtnCancelar.Text = My.Resources.WndAutoShutdown_BtnCancelar_Text
     End Sub
 
     Private Sub WndAutoShutdown_HelpButtonClicked(sender As Object, e As CancelEventArgs) Handles Me.HelpButtonClicked
@@ -21,7 +26,7 @@ Public Class WndAutoShutdown
     Private Sub BtnSetShutdownTimeout_Click(sender As Object, e As EventArgs) Handles BtnSetShutdownTimeout.Click
         Dim time As Integer = (NbbHours.CurrencyAsInt * 60 * 60) + (NbbMinutes.CurrencyAsInt * 60)
         If time < 60 Then
-            MessageBox.Show("É necessário definir um tempo maior que um minuto para agendar o desligamento.", "Tempo inválido", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1)
+            MessageBox.Show(My.Resources.WndAutoShutdownMinimunTimeNotExpected, My.Resources.WndAutoShutdownMinimunTimeNotExpectedTitle, MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1)
             Exit Sub
         End If
         Dim info As New ProcessStartInfo("cmd.exe")
